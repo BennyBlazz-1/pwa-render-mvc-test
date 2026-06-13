@@ -1,4 +1,17 @@
+# Node
 node_modules/
-dist/
-.env
+*/node_modules/
+
+# Build de Vue
+frontend/dist/
+
+# Firebase cache
+.firebase/
+.firebase/hosting.*.cache
+
+# Variables privadas
+backend/.env
+
+# Sistema
 .DS_Store
+Thumbs.db
